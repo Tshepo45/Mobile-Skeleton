@@ -3,7 +3,8 @@
   margin: 0;
   box-sizing: border-box;
 }
-  /* main container*/
+
+/* main container */
 .container {
   display: flex;
   flex-direction: column;
@@ -12,19 +13,21 @@
   text-align-last: center;
   align-items: center;
 }
-  /* my logo */   
+
+/* my logo */   
 .my-logo:hover {
   display: flex;
   flex-direction: column;
 }
- /* Ellipses */
+
+/* Ellipses */
 .ellipse11 {
   position: absolute;
   width: 38.5px;
   height: 19.25px;
   left: 16.04px;
   top: 60px;
-  background: blue;
+  background: blue ;
   transform: rotate(-156.88deg);
 }
     
@@ -34,7 +37,7 @@
   height: 4.73px;
   left: 127.18px;
   top: 70px;
-  background: blue;
+  background: blue ;
   transform: rotate(+30deg);
 }
     
@@ -44,7 +47,7 @@
   height: 10px;
   left: 132.98px;
   top: 70px;
-  background: lightseagreen;
+  background: lightseagreen ;
   transform: rotate(52.97deg);
 }
     
@@ -54,7 +57,7 @@
   height: 22.02px;
   left: 350px;
   top: 55px;
-  background: #EBEBFF;
+  background: #ebebff ;
   transform: rotate(-30deg);
 }
     
@@ -65,7 +68,8 @@
   left: 400px;
   top: 40px;
 }
- /* Ellipses End */
+
+/* Ellipses End */
 .heading-title {
   display: flex;
   flex-direction: column;
@@ -78,7 +82,7 @@
   line-height: 32px;
   width: 327px;
   font-size: 40px;
-  font-style: normal;
+  font-style:normal;
 }
     
 .heading-title p {
@@ -94,16 +98,16 @@
   font-weight: 500;
   color: #7f8cff;
   width: 90%;
-  text-decoration: none;
+  text-decoration:none;
 }
     
 .media-icons ul {
   display: flex;
   column-gap: 20px;
-  align-items: center;
+  align-items:center;
   padding: 0;
 }
     
 li {
-  list-style: none;
+  list-style:none;
 }
