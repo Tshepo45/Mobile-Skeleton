@@ -1,11 +1,11 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 /* main container */
-.container{
+.container {
   display: flex;
   flex-direction: column;
   min-height: 50vh;
@@ -21,7 +21,7 @@
 }
 
 /* Ellipses */
-.ellipse11{
+.ellipse11 {
   position: absolute;
   width: 38.5px;
   height: 19.25px;
@@ -31,7 +31,7 @@
   transform: rotate(-156.88deg);
 }
     
-.rectangle7{
+.rectangle7 {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
@@ -41,7 +41,7 @@
   transform: rotate(+30deg);
 }
     
-.ellipse5{
+.ellipse5 {
   position: absolute;
   width: 11px;
   height: 10px;
@@ -51,7 +51,7 @@
   transform: rotate(52.97deg);
 }
     
-.rectangle4{
+.rectangle4 {
   position: absolute;
   width: 95.58px;
   height: 22.02px;
@@ -61,7 +61,7 @@
   transform: rotate(-30deg);
 }
     
-.ellipse3{
+.ellipse3 {
   position: absolute;
   width: 105px;
   height: 105px;
@@ -70,14 +70,14 @@
 }
 
 /* Ellipses End */
-.heading-title{
+.heading-title {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   align-items: stretch;
 }
 
-.heading-title h1{
+.heading-title h1 {
   height: 150px;
   line-height: 32px;
   width: 327px;
@@ -85,7 +85,7 @@
   font-style:normal;
 }
     
-.heading-title p{
+.heading-title p {
   line-height: 24px;
   width: 327px;
   left: 24px;
@@ -94,20 +94,20 @@
   font-size: 16px;
 }
     
-.connect a:hover{
+.connect a:hover {
   font-weight: 500;
   color:#7f8cff;
   width: 90%;
   text-decoration:none;
 }
     
-.media-icons ul{
+.media-icons ul {
   display: flex;
   column-gap: 20px;
   align-items:center;
   padding: 0;
 }
     
-li{
-  list-style:none;
+li {
+  list-style: none;
 }
