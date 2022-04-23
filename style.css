@@ -1,110 +1,109 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-    /* main container*/
+  /* main container*/
 .container {
-    display: flex;
-    flex-direction: column;
-    min-height: 50vh;
-    justify-content: center;
-    text-align-last: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  text-align-last: center;
+  align-items: center;
+}
+  /* my logo */   
+.my-logo:hover {
+  display: flex;
+  flex-direction: column;
+}
+ /* Ellipses */
+.ellipse11 {
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 60px;
+  background: blue;
+  transform: rotate(-156.88deg);
+}
     
-  .my-logo:hover {
-    display: flex;
-    flex-direction: column;
-  }
-    /* Ellipses */
-  .ellipse11 {
-    position: absolute;
-    width: 38.5px;
-    height: 19.25px;
-    left: 16.04px;
-    top: 60px;
-    background: blue;
-    transform: rotate(-156.88deg);
-  }
+.rectangle7 {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 70px;
+  background: blue;
+  transform: rotate(+30deg);
+}
     
-  .rectangle7 {
-    position: absolute;
-    width: 26.46px;
-    height: 4.73px;
-    left: 127.18px;
-    top: 70px;
-    background: blue;
-    transform: rotate(+30deg);
-  }
+.ellipse5 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 132.98px;
+  top: 70px;
+  background: lightseagreen;
+  transform: rotate(52.97deg);
+}
     
-  .ellipse5 {
-    position: absolute;
-    width: 11px;
-    height: 10px;
-    left: 132.98px;
-    top: 70px;
-    background: lightseagreen;
-    transform: rotate(52.97deg);
-  }
+.rectangle4 {
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 350px;
+  top: 55px;
+  background: #EBEBFF;
+  transform: rotate(-30deg);
+}
     
-  .rectangle4 {
-    position: absolute;
-    width: 95.58px;
-    height: 22.02px;
-    left: 350px;
-    top: 55px;
-    background: #EBEBFF;
-    transform: rotate(-30deg);
-  }
-    
-  .ellipse3 {
-    position: absolute;
-    width: 105px;
-    height: 105px;
-    left: 400px;
-    top: 40px;
-  }
-    /* Ellipses End */
-  .heading-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: stretch;
-  }
+.ellipse3 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 400px;
+  top: 40px;
+}
+ /* Ellipses End */
+.heading-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
 
-  .heading-title h1 {
-    height: 150px;
-    line-height: 32px;
-    width: 327px;
-    font-size: 40px;
-    font-style: normal;
-  }
+.heading-title h1 {
+  height: 150px;
+  line-height: 32px;
+  width: 327px;
+  font-size: 40px;
+  font-style: normal;
+}
     
-  .heading-title p {
-    line-height: 24px;
-    width: 327px;
-    left: 24px;
-    top: 476px;
-    height: 146px;
-    font-size: 16px;
-  }
+.heading-title p {
+  line-height: 24px;
+  width: 327px;
+  left: 24px;
+  top: 476px;
+  height: 146px;
+  font-size: 16px;
+}
     
-  .connect a:hover {
-    font-weight: 500;
-    color: #7f8cff;
-    width: 90%;
-    text-decoration: none;
-  }
+.connect a:hover {
+  font-weight: 500;
+  color: #7f8cff;
+  width: 90%;
+  text-decoration: none;
+}
     
-  .media-icons ul {
-    display: flex;
-    column-gap: 20px;
-    align-items: center;
-    padding: 0;
-  }
+.media-icons ul {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  padding: 0;
+}
     
-  li {
-    list-style: none;
-  }
+li {
+  list-style: none;
+}
