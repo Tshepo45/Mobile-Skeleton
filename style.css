@@ -51,10 +51,10 @@
   gap: 12px;
 }
 
-.menu-section > div > heading-title {
+.menu-section > div > .heading-title {
   font: normal normal 700 40px 'Poppins', sans-serif;
   line-height: 52px;
-  margin-top: 205px;
+  margin-top: 45px;
   color: #172b4d;
 
 }
@@ -67,15 +67,17 @@
   line-height: 24px;
   color: #344563;
   height: 120px;
+  margin-top: 5px;
 }
 
-.menu-section > div > .connect {
+.menu-section > div > .connect:hover {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  
 }
 
 .media-icons {
@@ -94,3 +96,56 @@
   align-items: baseline;
 
 }
+
+.header-section > .background-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10px;
+  background-repeat: no-repeat;
+}
+
+.header-section > .background-img > .ellipse3 {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 400px;
+  top: 40px;
+}
+.header-section > .background-img > .rectangle4 {
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 350px;
+  top: 55px;
+  background: #ebebff;
+  transform: rotate(-30deg);
+}
+.header-section > .background-img > .ellipse5 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 132.98px;
+  top: 70px;
+  background: lightseagreen;
+  transform: rotate(52.97deg);
+}
+.header-section > .background-img > .rectangle7 {
+  position: absolute;
+  width: 26.46px;
+  height: 4.73px;
+  left: 127.18px;
+  top: 70px;
+  background: blue;
+  transform: rotate(+30deg);
+}
+.header-section > .background-img > .ellipse11 {
+  position: absolute;
+  width: 38.5px;
+  height: 19.25px;
+  left: 16.04px;
+  top: 60px;
+  background: blue;
+  transform: rotate(-156.88deg);
+}
+
